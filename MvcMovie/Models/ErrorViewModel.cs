@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MvcMovie.Models
 {
@@ -8,4 +9,5 @@ namespace MvcMovie.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+ 
 }

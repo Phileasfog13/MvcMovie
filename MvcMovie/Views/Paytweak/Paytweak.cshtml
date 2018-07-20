@@ -1,4 +1,4 @@
-﻿7
+﻿
 @{
     ViewData["Title"] = "Paytweak";
 }
@@ -27,11 +27,11 @@
             <form>
                 <div class="form-group">
                     <label for="Nom">Nom:</label>
-                    <input type="text" class="form-control" id="Nom">
+                    <input type="text" class="form-control" name="Nom" id="Nom" />
                 </div>
                 <div class="form-group">
                     <label for="Prénom">Prénom:</label>
-                    <input type="text" class="form-control" id="Prénomm">
+                    <input type="text" class="form-control" id="Prénom">
                     <div class="form-group">
                         <label for="Dette:">Dette:</label>
                         <input type="number" step="0.01" class="form-control" id="Dette">
@@ -39,15 +39,15 @@
                             <label for="portable">Télephone:</label>
                             <input type="tel" class="form-control" id="portable">
                         </div>
-                        <div class="container">
-                            <!--
-                              <a href="#" class="btn btn-info" role="button">Link Button</a>
-                              <button type="button" class="btn btn-info">Button</button>
-                              <input type="button" class="btn btn-info" value="Input Button">
-                            -->
-                            <input type="submit" class="btn btn-info" value="Envoyer">
+
+                        <div class="form-group">
+                            <label for="SMS">SMS:</label>
+                            <textarea class="form-control" rows="5" id="SMS"></textarea>
                         </div>
-                </form>
+                        <div class="col-md-6">
+                            <button class="btn btn-primary" type="submit" id="submit">Envoyer</button>
+                        </div>S
+</form>
 
         </div>
 
